@@ -11,6 +11,9 @@
 		DD5596F92936105C00E7A360 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5596F82936105C00E7A360 /* ContentView.swift */; };
 		DD5596FB2936105D00E7A360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5596FA2936105D00E7A360 /* Assets.xcassets */; };
 		DD5596FE2936105D00E7A360 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5596FD2936105D00E7A360 /* Preview Assets.xcassets */; };
+		DDD8E7B429373BC2009CE8F5 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD8E7B329373BC2009CE8F5 /* Location.swift */; };
+		DDD8E7B629374894009CE8F5 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD8E7B529374894009CE8F5 /* EditView.swift */; };
+		DDD8E7B82937527A009CE8F5 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD8E7B72937527A009CE8F5 /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		DD5596F82936105C00E7A360 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD5596FA2936105D00E7A360 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD5596FD2936105D00E7A360 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDD8E7B329373BC2009CE8F5 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		DDD8E7B529374894009CE8F5 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		DDD8E7B72937527A009CE8F5 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				DD5596F62936105C00E7A360 /* BucketListApp.swift */,
 				DD5596F82936105C00E7A360 /* ContentView.swift */,
+				DDD8E7B72937527A009CE8F5 /* Result.swift */,
+				DDD8E7B529374894009CE8F5 /* EditView.swift */,
+				DDD8E7B329373BC2009CE8F5 /* Location.swift */,
 				DD5596FA2936105D00E7A360 /* Assets.xcassets */,
 				DD5596FC2936105D00E7A360 /* Preview Content */,
 			);
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD5596F92936105C00E7A360 /* ContentView.swift in Sources */,
+				DDD8E7B82937527A009CE8F5 /* Result.swift in Sources */,
+				DDD8E7B429373BC2009CE8F5 /* Location.swift in Sources */,
+				DDD8E7B629374894009CE8F5 /* EditView.swift in Sources */,
 				DD5596F72936105C00E7A360 /* BucketListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,12 +283,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BucketList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "we need to unlock your data.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,12 +313,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BucketList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "we need to unlock your data.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
